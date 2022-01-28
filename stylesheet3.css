@@ -1,0 +1,127 @@
+/* ハンバーガーメニュー　*/
+.HM{
+    position: absolute;
+    top: 10px;
+    right: 15%;
+}   
+#toggle {
+    position: absolute;
+    background: rgb(255, 251, 0);
+    border: solid 1px black;
+}
+#toggle-box {
+    position: relative;
+    width: 36px;
+    height: 32px;
+    cursor: pointer;
+}
+#toggle-box > span {
+  width: 80%;
+  height: 2px;
+  left: 2px;
+  margin: 1px;
+  display: block;
+  background: rgb(0, 0, 0);
+  position: absolute;
+  transition: transform .6s ease-in-out, top .5s ease, bottom .5s ease;
+}
+
+#toggle-box > span:nth-child(1) {
+    top: 3px;
+}
+#toggle-box > span:nth-child(2) {
+    top: 50%;
+    transform: translatey(-50%);
+}
+#toggle-box > span:nth-child(3) {
+    bottom: 3px;
+}
+
+.is-open #toggle-box > span {
+    background: rgba(0, 0, 0, 0.7);
+}
+.is-open #toggle-box > span:nth-child(1) {
+  top: 50%;
+  transform: rotate(45deg) translatey(-50%);
+}
+.is-open #toggle-box > span:nth-child(2) {
+  width: 0;
+}
+.is-open #toggle-box > span:nth-child(3) {
+  top: 50%;
+  transform: rotate(-45deg) translatey(-50%);
+}
+
+/* z-index */
+#toggle {
+    z-index: 1000;
+}
+#main {
+    position: relative;  
+    z-index: 990;
+}
+
+#nav-content {
+    z-index: 900;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(175, 214, 0, 0.7);
+    color: rgb(247, 17, 17);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .6s ease, visibility .6s ease;
+}
+#nav-content ul {
+  list-style: none;
+}
+#nav-content a {
+  display: block;
+  position: relative;
+  top: 130px;
+  right: 5%;
+  color: rgb(255, 251, 0);
+  text-shadow: 1px 0 0 black,
+  0 1px 0 rgb(60, 61, 0),
+  -1px 0 0 rgb(60, 61, 0),
+  0 -1px 0 rgb(60, 61, 0);
+  text-decoration: none;
+  font-size: 30px;
+  padding: 30px 0;
+  transition: opacity .6s ease;
+  pointer-events: none;
+
+    padding: 3%;
+    margin: 3%;
+    border: double 5px #fbff00;
+    border-radius: 10px;
+    background: rgb(145, 123, 0);
+    
+}
+.nav-image{
+  width: 80%;
+  position: relative;
+  top: 100px;
+}
+
+#nav-content a:hover {
+  opacity: 0.6;
+}
+
+.is-open {
+    overflow: hidden;
+}
+.is-open #nav-content {
+  z-index: 999;
+  visibility: visible;
+  opacity: 1;
+}
+.is-open #nav-content a {
+  pointer-events: auto;
+}
+span{
+  color: white;
+}
