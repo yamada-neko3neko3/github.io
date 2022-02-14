@@ -1,0 +1,1097 @@
+/* スマホ */
+.body1{
+    background-color: yellow;
+    background-image: url("img3/背景１.png");
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.body2{
+    background-color: rgb(255, 0, 179);
+    background-image: url("img3/背景３.png");
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.body3{
+    background-color: rgb(0, 255, 13);
+    background-image: url("img3/背景４.png");
+    background-size: cover;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.back1{
+    position: relative;
+    width: 108%;
+    height: 30%;
+    top: 375%;
+    left: -3%;
+    border-top:solid 1px green;
+    background-color: greenyellow;
+}
+.back2{
+        position: relative;
+        width: 108%;
+        height: 10%;
+        top: -34%;
+        left: -3%;
+        border-bottom:solid 1px rgb(255, 166, 0);
+        background-color: rgb(255, 196, 0);
+}
+.imageALL{
+    position: absolute;
+    top: 2%;
+    width: 45%;
+}
+.playhome{
+    position: absolute;
+    top: 1%;
+    width: 50%;
+    z-index: 200;
+}
+
+
+/* m-1 */
+.image1-1{
+    width: 90%;
+    position: absolute;
+    top: 61%;
+    left: 8%;
+}
+.image1-2{
+    width: 90%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.image1-3{
+    width: 60%;
+    position: absolute;
+    top: 72%;
+    left: 18%;
+}
+.image1-4{
+width: 90%;
+position: absolute;
+top: 25%;
+}
+.m-1p{
+    position: absolute;
+    width: 75%;
+    top: 80%;
+    left: 0%;
+    color: white;
+ 
+}
+.chara1-1{
+    width: 45%;
+    position: absolute;
+    top: 28%;
+    left: 25%;
+}
+.fade-in1{ 
+    font-size:40px;
+    opacity:0;
+    animation-name: sample01; /*←@keyframesにも同じ名前を記述*/
+    animation-duration: 8s; 
+    animation-fill-mode: forwards; 
+  }
+  @keyframes sample01 {  /*←animation-nameにも同じ名前を記述*/
+  0% {
+    opacity: 0;
+    color:#000;
+  }
+  90% {
+   opacity: 1;
+   color:#000;
+  }
+   100% {
+    opacity: 1;
+    color:#00f;
+  } 
+  }
+
+  /* m-2 */
+  .image2-1{
+      width: 70%;
+      position: absolute;
+      top: 124%;
+      left: 3%;
+      z-index: 300;
+  }
+  .chara2-1{
+      width: 45%;
+      position: absolute;
+      top: 125%;
+      right: -2%;
+      z-index: 200;
+  }
+  .image2-2{
+      width: 75%;
+      position: absolute;
+      top: 158%;
+  }
+  .page-move1{
+    width: 70%;
+    position: absolute;
+    top: 158%;
+    left: 10%;
+    z-index: 999;
+} 
+  .p2-1{
+      position: absolute;
+      top: 114%;
+      left: 3%;
+      font-size: 24px;
+      color: rgb(155, 106, 0);
+  }
+  .p2-2{
+      position: absolute;
+      top: 136%;
+      left: 3%;
+      font-size: 16px;
+      background-color: yellow;
+      border-top: solid 1px rgb(255, 187, 0);
+      border-bottom: solid 1px rgb(255, 187, 0);
+  }
+
+    /* m-３ */
+    .image3-1{
+        width: 80%;
+        position: absolute;
+        top: 179%;
+        right: -9%;
+        z-index: 300;
+    }
+    .chara3-1{
+        width: 40%;
+        position: absolute;
+        top: 183%;
+        left: -7%;
+    }
+    .chara3-2{
+        width: 40%;
+        position: absolute;
+        top: 192%;
+        left: 7%;
+        z-index: 200;
+    }
+    .chara3-3{
+        width: 40%;
+        position: absolute;
+        top: 198%;
+        left: -7%;
+        z-index: 300;
+    }
+    .image3-2{
+        width: 70%;
+        position: absolute;
+        top: 210%;
+        right: -20%;
+    }
+    .page-move2{
+        width: 73%;
+    position: absolute;
+    top: 210%;
+    z-index: 999;
+    }
+    .p3-1{
+        position: absolute;
+        top: 172%;
+        right: 5%;
+        font-size: 24px;
+      color: rgb(155, 106, 0);
+    }
+    .p3-2{
+        position: absolute;
+        top: 191%;
+        right: 2%;
+        font-size: 16px;
+        background-color: yellow;
+      border-top: solid 1px rgb(255, 187, 0);
+      border-bottom: solid 1px rgba(255, 187, 0);
+    }
+
+        /* m-4 */
+        .image4-1{
+            width: 80%;
+            position: absolute;
+            top: 236%;
+            left: -5%;
+        }
+        .chara4-1{
+            width: 55%;
+            position: absolute;
+            top: 245%;
+            right: -9%;
+            z-index: 99;
+        }
+        .chara4-2{
+            width: 55%;
+            position: absolute;
+            top: 250%;
+            right: 3%;
+            z-index: 100;
+        }
+        .image4-2{
+            width: 70%;
+            position: absolute;
+            top: 245%;
+            left: 3%;
+        }
+        .page-move3{
+        width: 70%;
+    position: absolute;
+    top: 263%;
+    z-index: 999;
+        }
+        .p4-1{
+            position: absolute;
+            top: 229%;
+            left: 2%;
+            font-size: 24px;
+      color: rgb(155, 106, 0);
+        }
+        .p4-2{
+            position: absolute;
+            top: 243%;
+            left: 5%;
+            font-size: 18px;
+            background-color: yellow;
+      border-top: solid 1px rgb(255, 187, 0);
+      border-bottom: solid 1px rgb(255, 187, 0);
+        }
+
+        /* m-5 */
+        .image5-1{
+            width: 60%;
+            position: absolute;
+            top: 299%;
+            right: 19%;
+        }
+        .image5-2{
+            width: 40%;
+            position: absolute;
+            top: 307%;
+            left: 7%;
+        }
+        .image5-3{
+            width: 40%;
+            position: absolute;
+            top: 307%;
+            right: 7%;
+        }
+    .image5-4{
+        width: 18%;
+        position: absolute;
+        top: 347%;
+        right: 14%;
+    }
+    .image5-5{
+width: 50%;
+position: absolute;
+top: 370%;
+left: 25%;
+    }
+        .p5-1{
+            position: absolute;
+            top: 294%;
+            color: rgb(155, 106, 0);
+            font-size: 24px;
+        }
+        .p5-2{
+            position: absolute;
+            top: 340%;
+            left: 7%;
+        }
+        .p5-3{
+            position: absolute;
+            top: 378%;
+            left: 12%;
+        }
+        .p5-4{
+            position: absolute;
+            top: 380%;
+            font-size: 1px;
+            z-index: -100;
+        }
+
+
+/* 2page --------------
+--------------------------
+--------------------------------------*/
+
+/* p2-1 */
+.animation1{
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+position: absolute;
+top: 57%;
+    width: 80%;
+  }
+  .keyframe1{
+    animation-name: poyopoyo;
+  }
+  @keyframes poyopoyo {
+    0%, 40%, 60%, 80% {
+      transform: scale(1.0);
+    }
+    50%, 70% {
+      transform: scale(0.95);
+    }
+  }
+
+.page2-chara1{
+    position: absolute;
+    top: 47%;
+    width: 70%;
+    left: -5%;
+}
+
+.page2image1{
+    width: 98%;
+    position: absolute;
+    top: 15%;
+}
+.page2-1p1{
+    position: relative;
+    left: -5%;
+    font-size: 22px;
+    color: rgb(250, 246, 0);
+    text-shadow:1px 0 5px black;
+}
+
+.page2-1p2{
+    position: absolute;
+    top: 92%;
+    left: 30%;
+    font-size: 40px;
+    color: white;
+}
+.page2back1{
+    position: relative;
+    width: 108%;
+    height: 12%;
+    top: 65%;
+    left: -3%;
+    background-color: rgb(255, 123, 0);
+}
+.background1{
+    z-index: 10;
+}
+
+/* p2-2 */
+.span-p2{
+    font-size: 25px;
+    color: rgb(0, 0, 0);;
+}
+
+.page2-chara2{
+    width: 55%;
+    position: absolute;
+    top: 116%;
+    right: -8%;
+    z-index: 200;
+}
+.page2-2p1{
+position: absolute;
+top: 107%;
+left: 3%;
+font-size: 30px;
+color: rgb(255, 255, 255);
+text-shadow:1px 0 5px rgb(0, 0, 0);
+}
+
+.page2-2p2{
+    position: absolute;
+    top: 125%;
+    left: 3%;
+    background-color: yellow;
+    border-top: solid 1px rgb(255, 187, 0);
+    border-bottom: solid 1px rgb(255, 187, 0);
+}
+
+/* p2-3 */
+.page2-chara3{
+    width: 55%;
+    position: absolute;
+    top: 167%;
+    left: -3%;
+}
+.page2-3p1{
+position: absolute;
+top: 163%;
+right: 2%;
+font-size: 22px;
+color: rgb(255, 255, 255);
+text-shadow:1px 0 5px rgb(0, 0, 0);
+}
+.page2-3p2{
+    position: absolute;
+    top: 175%;
+    right: 3%;
+    background-color: yellow;
+    border-top: solid 1px rgb(255, 187, 0);
+    border-bottom: solid 1px rgb(255, 187, 0);
+}
+
+/* p2-4 */
+.page2-chara4{
+    width: 55%;
+    position: absolute;
+    top: 215%;
+    right: -4%;
+    z-index: 100;
+}
+.page2-4p1{
+position: absolute;
+top: 215%;
+left: 3%;
+font-size: 22px;
+z-index: 300;
+color: rgb(255, 255, 255);
+text-shadow:1px 0 5px rgb(0, 0, 0);
+}
+.page2-4p2{
+    position: absolute;
+    top: 225%;
+    left: 3%;
+    background-color: yellow;
+    border-top: solid 1px rgb(255, 187, 0);
+    border-bottom: solid 1px rgb(255, 187, 0);
+}
+
+/* p2-5 */
+.page2-chara5{
+    width: 63%;
+    position: absolute;
+    top: 265%;
+    left: -13%;
+    z-index: 100;
+}
+.page2-5p1{
+position: absolute;
+top: 263%;
+right: 1%;
+font-size: 24px;
+color: white;
+text-shadow:1px 0 5px black;
+}
+.page2-5p2{
+    position: absolute;
+    top: 271%;
+    right: 3%;
+    background-color: yellow;
+    border-top: solid 1px rgb(255, 187, 0);
+    border-bottom: solid 1px rgb(255, 187, 0);
+}
+
+/* p2-6 */
+.page2-chara6{
+    width: 55%;
+    position: absolute;
+    top: 313%;
+    right: -3%;
+    z-index: 100;
+}
+.page2-6p1{
+position: absolute;
+top: 313%;
+left: -1%;
+font-size: 18px;
+color: white;
+text-shadow:1px 0 5px black;
+}
+.page2-6p2{
+    position: absolute;
+    top: 325%;
+    left: 3%;
+    background-color: yellow;
+    border-top: solid 1px rgb(255, 187, 0);
+    border-bottom: solid 1px rgb(255, 187, 0);
+}
+
+/* p2-7 */
+.page2-chara7{
+    width: 50%;
+    position: absolute;
+    top: 362%;
+    left: -6%;
+    z-index: 100;
+}
+.page2-7p1{
+position: absolute;
+top: 365%;
+right: 1%;
+font-size: 18px;
+color: white;
+    text-shadow:1px 0 5px black;
+}
+.page2-7p2{
+    position: absolute;
+    top: 375%;
+    right: 3%;
+    background-color: yellow;
+    border-top: solid 1px rgb(255, 187, 0);
+    border-bottom: solid 1px rgb(255, 187, 0);
+}
+
+/* p2最下層 */
+.page2image5-5{
+width: 50%;
+position: absolute;
+top: 419%;
+left: 25%;
+}
+.page2p5-3{
+    position: absolute;
+    top: 428%;
+    left: 12%;
+}
+.back1-2{
+    position: relative;
+    width: 108%;
+    height: 30%;
+    top: 426%;
+    left: -3%;
+    border-top:solid 1px green;
+    background-color: greenyellow;
+}
+.page2p5-4{
+    position: absolute;
+    top: 432%;
+    font-size: 1px;
+    z-index: -100;
+}
+
+/* 3page --------------
+--------------------------
+--------------------------------------*/
+
+/* p3-1 */
+.page3-background{
+    width: 109%;
+    height: 110%;
+    position: relative;
+    top: -50%;
+    left: -4%;
+z-index: -1;
+}
+.page3image1{
+    width: 128%;
+    position: absolute;
+    top: 9%;
+    left: -10%;
+}
+.page3-1p2{
+    position: absolute;
+    top: 88%;
+    left: 17%;
+    font-size: 35px;
+    color: white;
+}
+.page3back1{
+    position: relative;
+    width: 108%;
+    height: 12%;
+    top: 60%;
+    left: -3%;
+    background-color: rgb(255, 123, 0);
+}
+.page3image2{
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 10%;
+}
+
+.page3-2p1{
+    position: absolute;
+    top: 100%;
+    left: -1%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #ff00b3;
+    font-size: 15px;
+    text-shadow:1px 0 5px rgb(255, 0, 0);  
+  padding: 0.3em 0.5em;
+  background: -webkit-linear-gradient(to top, rgb(255, 0, 255), #ffc5fc);
+  background: linear-gradient(to top, rgb(255, 0, 255), #ffc5fc);
+  color: rgb(0, 0, 0);
+}
+.enemy1{
+    position: absolute;
+    top: 120%;
+    left: -2%;
+    width: 70%;
+}
+.enemy1name{
+    position: absolute;
+    top: 165%;
+    left: 18%;
+    font-size: 20px;
+}
+.enemy2{
+    position: absolute;
+    top: 123%;
+    right: -4%;
+    width: 70%;
+}
+.enemy2name{
+    position: absolute;
+    top: 165%;
+    right: 22%;
+    font-size: 20px;
+}
+
+.page3-2p2{
+    position: absolute;
+    top: 175%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #ff00b3;
+    text-shadow:1px 0 5px rgb(255, 0, 0);  
+    font-size: 16px;
+    padding: 0.3em 0.5em;
+  background: -webkit-linear-gradient(to top, rgb(255, 0, 255), #ffc5fc);
+  background: linear-gradient(to top, rgb(255, 0, 255), #ffc5fc);
+  color: rgb(0, 0, 0);
+}
+.enemy3{
+    position: absolute;
+    top: 202%;
+    left: -7%;
+    width: 70%;
+}
+.enemy3name{
+    position: absolute;
+    top: 245%;
+    left: 10%;
+    font-size: 20px;
+}
+.enemy4{
+    position: absolute;
+    top: 203%;
+    right: -7%;
+    width: 70%;
+}
+.enemy4name{
+    position: absolute;
+    top: 245%;
+    right: 12%;
+    font-size: 20px;
+}
+
+.page3-2p3{
+    position: absolute;
+    top: 260%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #ff00b3;
+    text-shadow:1px 0 5px rgb(255, 0, 0);  
+    padding: 0.3em 0.5em;
+  background: -webkit-linear-gradient(to top, rgb(255, 0, 255), #ffc5fc);
+  background: linear-gradient(to top, rgb(255, 0, 255), #ffc5fc);
+  color: rgb(0, 0, 0);
+}
+.enemy5{
+    position: absolute;
+    top: 282%;
+    left: 18%;
+    width: 70%;
+}
+.enemy5name{
+    position: absolute;
+    top: 322%;
+    left: 35%;
+    font-size: 20px;
+}
+
+.page3-2p4{
+    position: absolute;
+    top: 330%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #ff00b3;
+    text-shadow:1px 0 5px rgb(255, 0, 0);  
+    padding: 0.3em 0.5em;
+  background: -webkit-linear-gradient(to top, rgb(255, 0, 255), #ffc5fc);
+  background: linear-gradient(to top, rgb(255, 0, 255), #ffc5fc);
+  color: rgb(0, 0, 0);
+}
+.enemy6{
+    position: absolute;
+    top: 353%;
+    left: 18%;
+    width: 70%;
+}
+.enemy6name{
+    position: absolute;
+    top: 400%;
+    left: 39%;
+    font-size: 20px;
+}
+.enemy7{
+    position: absolute;
+    top: 403%;
+    left: 38%;
+    width: 70%;
+}
+.enemy7name{
+    position: absolute;
+    top: 448%;
+    left: 75%;
+    font-size: 20px;
+}
+.enemy8{
+    position: absolute;
+    top: 403%;
+    right: 36%;
+    width: 70%;
+}
+.enemy8name{
+    position: absolute;
+    top: 448%;
+    right: 57%;
+    font-size: 20px;
+}
+.enemy9{
+    position: absolute;
+    top: 458%;
+    left: 18%;
+    width: 70%;
+}
+.enemy9name{
+    position: absolute;
+    top: 512%;
+    left: 45%;
+    font-size: 20px;
+}
+
+.fade-in-bottom {
+    position: relative;
+    top: -10%;
+    opacity: 0;
+    animation-name: fadein-bottom;
+    animation-duration: 1.5s;
+    animation-delay: .3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.fade-in-bottom {
+    opacity: 0;
+    animation: fadein-bottom 1.5s .3s ease-out forwards;
+}
+.fade-in-bottom {
+    opacity: 0;
+    animation-name: fadein-bottom;
+    animation-duration: 1.5s;
+    animation-delay: 1.3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* p3最下層 */
+.page3image5-5{
+width: 50%;
+position: absolute;
+top: 535%;
+left: 25%;
+}
+.page3p5-3{
+    position: absolute;
+    top: 543%;
+    left: 12%;
+}
+.back1-3{
+    position: relative;
+    width: 108%;
+    height: 30%;
+    top: 544%;
+    left: -3%;
+    border-top:solid 1px green;
+    background-color: greenyellow;
+}
+.page3p5-4{
+    position: absolute;
+    top: 543%;
+    font-size: 1px;
+    z-index: -100;
+}
+
+/* 4page --------------
+--------------------------
+--------------------------------------*/
+
+/* p4-1 */
+.animation2{
+    position: absolute;
+    top: 48%;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    width: 100%;
+  }
+  
+  .keyframe2{
+    animation-name: anim_h;
+  }
+  
+  @keyframes anim_h {
+    0% {
+      transform: translate(0px, 0);
+    }
+    100% {
+      transform: translate(30px, 0);
+    }
+  }
+
+
+.page4chara1{
+    position: absolute;
+    width: 50%;
+    top: 49%;
+    right: 3%;
+}
+.page4chara2{
+    position: absolute;
+    width: 50%;
+    top: 49%;
+    left: -1%;
+}
+
+.page4image1{
+    width: 98%;
+    position: absolute;
+    top: 15%;
+}
+.page4-1p1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 18px;
+
+    color: #0f8000;
+    border: solid 3px #0f8000;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    background: rgba(255, 255, 255,0.7);
+}
+.page4-1p2{
+    position: absolute;
+    top: 73%;
+    left: 15%;
+    font-size: 40px;
+    color: white;
+}
+.page4back1{
+    position: relative;
+    width: 108%;
+    height: 12%;
+    top: 45%;
+    left: -3%;
+    background-color: rgb(255, 123, 0);
+}
+
+.page4image2{
+    position: absolute;
+    width: 108%;
+    top: 105%;
+    left: -3%;
+    padding: 6px 0px;
+    color: #2c2c2f;
+    background: #00ff37;
+    border-top: solid 5px #348d00;
+    border-bottom: solid 5px #348d00;
+}
+.p42{
+    position: absolute;
+    top: 149%;
+    font-size: 14px;
+}
+.map1{
+    width: 60%;
+    position: absolute;
+    top: 100%;
+    left: 2%;
+}
+
+.page4image3{
+    position: absolute;
+    width: 108%;
+    top: 165%;
+    left: -3%;
+    padding: 6px 0px;
+    color: #2c2c2f;
+    background: #00ff37;
+    border-top: solid 5px #348d00;
+    border-bottom: solid 5px #348d00;
+}
+.p43{
+    position: absolute;
+    top: 209%;
+    font-size: 14px;
+}
+.map2{
+    width: 60%;
+    position: absolute;
+    top: 162%;
+    right: 2%;
+}
+
+.page4image4{
+    position: absolute;
+    width: 108%;
+    top: 225%;
+    left: -3%;
+    padding: 6px 0px;
+    color: #2c2c2f;
+    background: #00ff37;
+    border-top: solid 5px #348d00;
+    border-bottom: solid 5px #348d00;
+}
+.p44{
+    position: absolute;
+    top: 269%;
+    font-size: 14px;
+}
+.map3{
+    width: 60%;
+    position: absolute;
+    top: 222%;
+    left: 2%;
+}
+
+
+.page4image5{
+    position: absolute;
+    width: 108%;
+    top: 285%;
+    left: -3%;
+    padding: 6px 0px;
+    color: #2c2c2f;
+    background: #00ff37;
+    border-top: solid 5px #348d00;
+    border-bottom: solid 5px #348d00;
+}
+.p45{
+    position: absolute;
+    top: 329%;
+    font-size: 14px;
+}
+.map4{
+    width: 60%;
+    position: absolute;
+    top: 282%;
+    right: 2%;
+}
+
+.page4image6{
+    position: absolute;
+    width: 108%;
+    top: 345%;
+    left: -3%;
+    padding: 6px 0px;
+    color: #2c2c2f;
+    background: #00ff37;
+    border-top: solid 5px #348d00;
+    border-bottom: solid 5px #348d00;
+}
+.p46{
+    position: absolute;
+    top: 389%;
+    font-size: 14px;
+}
+.map5{
+    width: 60%;
+    position: absolute;
+    top: 342%;
+    left: 2%;
+}
+
+.page4image7{
+    position: absolute;
+    width: 108%;
+    top: 405%;
+    left: -3%;
+    padding: 6px 0px;
+    color: #2c2c2f;
+    background: #00ff37;
+    border-top: solid 5px #348d00;
+    border-bottom: solid 5px #348d00;
+}
+.p47{
+    position: absolute;
+    top: 449%;
+    font-size: 14px;
+}
+.map6{
+    width: 60%;
+    position: absolute;
+    top: 402%;
+    right: 2%;
+}
+
+.page4image8{
+    position: absolute;
+    width: 108%;
+    top: 465%;
+    left: -3%;
+    padding: 6px 0px;
+    color: #2c2c2f;
+     background: #00ff37;
+    border-top: solid 5px #348d00;
+    border-bottom: solid 5px #348d00;
+}
+.p48{
+    position: absolute;
+    top: 509%;
+    font-size: 14px;
+}
+.map7{
+    width: 60%;
+    position: absolute;
+    top: 462%;
+    left: 2%;
+}
+
+/* p4最下層 */
+.page4image5-5{
+    width: 50%;
+    position: absolute;
+    top: 529%;
+    left: 25%;
+    }
+    .page4p5-3{
+        position: absolute;
+        top: 538%;
+        left: 12%;
+    }
+    .page4p5-4{
+        position: absolute;
+        top: 538%;
+        left: 12%;
+        z-index: -100;
+    }
+    .back1-4{
+        position: relative;
+        width: 108%;
+        height: 30%;
+        top: 538%;
+        left: -3%;
+        border-top:solid 1px green;
+        background-color: greenyellow;
+    }
